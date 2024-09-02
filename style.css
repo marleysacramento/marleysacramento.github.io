@@ -1,0 +1,95 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f4f4f4;
+}
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+.conteudo {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+p {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+.minhaFoto {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px;
+    object-fit: cover;
+}
+
+.uninter {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px;
+    object-fit: cover;
+}
+
+.link-projeto, .link-contato {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.link-projeto:hover, .link-contato:hover {
+    color: #0056b3;
+}
